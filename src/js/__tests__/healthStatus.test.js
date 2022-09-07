@@ -1,7 +1,7 @@
 import healthStatusBar from '../healthStatusBar';
 
 test.each([
-  [100,'healthy'],
+  [100, 'healthy'],
   [51, 'healthy'],
   [50, 'wounded'],
   [21, 'wounded'],
@@ -10,4 +10,4 @@ test.each([
 ])('health status bar should return right values', (healthStatus, expected) => {
   const result = healthStatusBar(healthStatus);
   expect(result).toBe(expected);
-})
+});
