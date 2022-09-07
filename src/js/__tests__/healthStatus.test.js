@@ -1,4 +1,4 @@
-import healthStatusBar from '../healthStatusBar';
+import healthStatusBar from '../app';
 
 test.each([
   [100, 'healthy'],
