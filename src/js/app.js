@@ -5,4 +5,3 @@ export default function healthStatusBar(healthStatus) {
   if (healthStatus > 0 && healthStatus < 15) return 'critical';
   return 'out of range';
 }
-
